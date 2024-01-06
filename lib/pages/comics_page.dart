@@ -34,9 +34,6 @@ class ComicsPageState extends State<ComicsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Comics'),
-      ),
       body: Column(
         children: [
           MarvelSearchBar(onSearch: (query) {

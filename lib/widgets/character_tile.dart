@@ -42,6 +42,8 @@ class CharacterTile extends StatelessWidget {
       ),
       onTap: () {
         showModalBottomSheet(
+          showDragHandle: true,
+          isScrollControlled: true,
           context: context,
           builder: (BuildContext context) {
             return CharacterDetailSheet(character: character);

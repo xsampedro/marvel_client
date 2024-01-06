@@ -35,9 +35,6 @@ class CharactersPageState extends State<CharactersPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Marvel Characters'),
-      ),
       body: Column(
         children: [
           MarvelSearchBar(onSearch: (query) {
